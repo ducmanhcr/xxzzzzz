@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  line-height: 2;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+  border-bottom: 2px solid rgb(175, 156, 159);
+}
+.section-title {
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.info {
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5%;
+}
+.avt {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 200px;
+  height: 200px;
+  right: 10px;
+}
+#info {
+  position: relative;
+}
+.a {
+  color: black;
+  vertical-align: top;
+  display: inline-block;
+
+  width: 300px;
+}
+.section-content {
+  border-bottom: 0.5px solid grey;
+  margin-bottom: 0.5px;
+}
+.section-content1 {
+  line-height: 1.54;
+}
+#bc {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#da {
+  display: inline-block;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(79, 79, 194);
+}
+a:hover,
+a:active {
+  font-size: 35px;
+  cursor: pointer;
+}
+#contact {
+  border-bottom: 2px solid pink;
+}
